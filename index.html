@@ -1,16 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Swiper</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Swiper</title>
+		<link rel="stylesheet" href="css/style.css" />
 
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="title">
+				<h1>Swiper</h1>
+			</div>
 
+			<div class="image-slider swiper-container">
+				<div class="image-slider__wrapper swiper-wrapper">
+					<div class="image-slider__slide swiper-slide">
+						<div class="image-slider__image slider-image">
+							<img src="img/slid_1.png" alt="" />
+						</div>
+					</div>
+					<div class="image-slider__slide swiper-slide">
+						<div class="image-slider__image">
+							<img src="img/slid_2.jpg" alt="" />
+						</div>
+					</div>
+					<div class="image-slider__slide swiper-slide">
+						<div class="image-slider__image">
+							<img src="img/slid_3.jpg" alt="" />
+						</div>
+					</div>
+				</div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+			</div>
+		</div>
 
-  <script src="js/script.js"></script>
-</body>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
 </html>
